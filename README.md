@@ -1,10 +1,8 @@
 # webforce3-starter-spring
 
-Créer un package
+### Créer un package avec Controllers
 
-Créer une classe PagesControlles
-
-Ajouter des annotations et une méthode
+#### Créer une classe PagesControlles et Ajouter des annotations et une méthode
 
 
        @Controller
@@ -21,7 +19,7 @@ Ajouter des annotations et une méthode
      }
 
 
-Créer une méthode pour mapper l'Url des articles
+#### Créer une méthode pour mapper l'Url des articles
 
 
 	@GetMapping("/articles")
