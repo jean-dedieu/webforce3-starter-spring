@@ -19,3 +19,13 @@ Ajouter des annotations et une méthode
 	   }
 
      }
+
+
+Créer une méthode pour mapper l'Url des articles
+
+
+	@GetMapping("/articles")
+	@ResponseBody
+	public String articles() {
+		return "Page des articles";
+	}
