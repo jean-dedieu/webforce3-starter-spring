@@ -2,6 +2,15 @@
 
 ### Créer un package avec Controllers
 
+### main method
+
+
+     public static void main(String[] args) {
+		SpringApplication.run(FirstAppApplication.class, args);
+	}
+	
+	
+	
 #### Créer une classe PagesControlles et Ajouter des annotations et une méthode
 
 
