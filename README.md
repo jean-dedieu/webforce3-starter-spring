@@ -36,3 +36,22 @@
 	public String articles() {
 		return "Page des articles";
 	}
+	
+#### Retourner les données d'une API 
+
+
+          @SpringBootApplication
+         @RestController
+          public class DemoApplication {
+	  public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	   }
+	
+	  @GetMapping("/")
+	  @ResponseBody
+	   public List<String> home(){
+		//String home()
+		//List<String>home()
+		return List.of("Hello", "World","WebForce","Spring");
+		//return "Hello Word!!";
+	}
